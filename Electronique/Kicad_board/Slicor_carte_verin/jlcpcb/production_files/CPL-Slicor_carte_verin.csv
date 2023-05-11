@@ -1,0 +1,13 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,680uF,C_Elec_10x10.2,107.188,-60.198,-90.0,top
+C2,220uF,C_Elec_10x10.2,75.438,-78.486,180.0,top
+C3,22p,C_01005_0402Metric,88.5,-106.75,90.0,top
+C4,22p,C_01005_0402Metric,88.5,-112.675,-90.0,top
+D5,1N5824,D_SOD-128,75.0,-55.32,180.0,top
+L1,33uH,L_7.3x7.3_H4.5,77.2,-65.0,-90.0,top
+R1,10k,R_1206_3216Metric,133.5375,-125.5,0.0,top
+R2,10k,R_1206_3216Metric,133.45,-113.0,0.0,top
+R13,100k,R_1206_3216Metric,101.3975,-99.442,0.0,top
+U1,LM2596S-5,TO-263-5_TabPin3,91.44,-61.395,-90.0,top
+uC1,ATmega328-A,TQFP-32_7x7mm_P0.8mm,100.32,-106.554,0.0,top
+Y1,16MHz,Crystal_SMD_3225-4Pin_3.2x2.5mm,89.4,-109.65,-90.0,top

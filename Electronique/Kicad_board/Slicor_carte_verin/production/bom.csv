@@ -1,0 +1,10 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+C1,C_Elec_10x10.2,1,680uF,
+C2,C_Elec_10x10.2,1,220uF,
+"C3, C4",C_01005_0402Metric,2,22p,
+D5,D_SOD-128,1,1N5824,
+L1,L_7.3x7.3_H4.5,1,33uH,
+R13,R_1206_3216Metric,1,100k,
+U1,TO-263-5_TabPin3,1,LM2596S-5,
+Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,16MHz,
+uC1,TQFP-32_7x7mm_P0.8mm,1,ATmega328-A,
