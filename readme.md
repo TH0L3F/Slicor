@@ -7,7 +7,7 @@ Trancher des blocs de sable de manière précise et sécuritaire pour faire un m
 
 --------------------
 
-##Construction
+## Construction
 
 La trancheuse est constitué d'une structure rigide permettant d'interconnecter toute les parties mécanique utiles en un unique objet d'étude. Cette structure possède une plateau en métal sur lequel le bloc de sable doit se déplacer. Pour limiter les frottements il a était décidé de mettre une plaque en verre qui est lubrifier avant chaques utilisations. Pour absorber les chocs et limiter l'influence des variations de niveaux du plan en métal sur la plaque de verre (qui pourrait la fragiliser voir même la casser) une plaque en caoutchouc se trouve entre les deux plaques.
 
@@ -19,7 +19,7 @@ Les deux cartes sont interconnectés via une liaison série (RX TX) UART afin pe
 
 --------------------
 
-##Fonctionnement  
+## Fonctionnement  
 
 Dans un premier temps l'utilisateur fait le homming de la machine (la mise à zéro) afin que celle-ci se déplace pour se mettre en contact avec le premier contacteur.
 
@@ -31,7 +31,7 @@ La valeur de déplacement peut être changer en dehors des moments de mouvements
 
 --------------------
 
-##Préparation
+## Préparation
 
 Il faut mettre en position zéro la machine après chaques utilisations pour facilité la préparation de la fois suivante.
 
