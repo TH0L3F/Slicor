@@ -57,6 +57,7 @@ Puis faire les étapes de fonctionnement précisé ci-dessus.
 -Modéliser et fabriquer un support pour l'autre extremité du vérin
 -La fixer directement sur la plaque en acier
 -Faire le lien entre l'encodeur linéaire et la structure souder (mesure direct de la position)
+-Fixer une lame sur le mobile de découpe de façon sécuritaire et précise
 
 ### Attention !!!
 -Ne pas retirer les douilles des tiges (ça les abimes)
@@ -73,3 +74,6 @@ Puis faire les étapes de fonctionnement précisé ci-dessus.
 -Programmer avec le même programmateur que le subductor
 -Parfois la programmation ne fonctionne pas et nécessite l'ajout ou le retrait de delay(1) à des endroits dans le programme (Dont know why ...)
 -Vérifier le sens de branchement des deux contacteurs fin de course
+
+## Manuel
+-Modifier le manuel si nécessaire après avoir expérimenté ce qui est actuellement proposé
