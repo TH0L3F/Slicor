@@ -2,7 +2,7 @@
 
 Trancheuse de sable pour conçue pour le laboratoire de Sciences Naturelles de l'université de Lille
 
-##Objectif
+## Objectif
 
 Trancher des blocs de sable de manière précise et sécuritaire pour faire un mapping 3D de ceux-ci afin de les étudier.
 
