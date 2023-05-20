@@ -40,4 +40,36 @@ Premièrement il faut huiler la plaque de verre pour faciliter le déplacement.
 
 Puis disposer le bloc de sable en buter sur la plaque mobile et le plan perpendiculaire à la plaque mobile.
 
-Puis faire les étapes de fonctionnement précisé ci-dessus. 
+Puis faire les étapes de fonctionnement précisé ci-dessus.
+
+--------------------
+
+# TODO
+
+## Mécanique
+-Monter les pièces usinés (Douille à bille avec pièce en acier et circlips
+-Faire souder la structure porteuse de plateau
+-Fixer le plan de pousser sur la structure souder
+-Fixer les douilles sur la structure souder
+-Fixer les pièces fesant le lien entre la structure souder et le vérin
+-Installer les équerres de support des tiges
+-Vérifier le positionnement
+-Modéliser et fabriquer un support pour l'autre extremité du vérin
+-La fixer directement sur la plaque en acier
+-Faire le lien entre l'encodeur linéaire et la structure souder (mesure direct de la position)
+
+### Attention !!!
+-Ne pas retirer les douilles des tiges (ça les abimes)
+-Vérifier le parallèlisme avant d'appliquer le moindre effort (sinon la structure risque d'être détruite)
+-Traiter le cadre pour limiter les risques de rouilles (milieu humide et sable)
+
+## Programmation
+-Vérifier la communication entre les deux cartes
+-Programmer le PID (vérin - encodeur linéaire) pour le mouvement de la plaque
+-Vérifier le sens des contacteurs
+
+### Attention !!!
+-Faire les premiers tests à vide et toujours à porter de bouton d'arrêt d'urgence
+-Programmer avec le même programmateur que le subductor
+-Parfois la programmation ne fonctionne pas et nécessite l'ajout ou le retrait de delay(1) à des endroits dans le programme (Dont know why ...)
+-Vérifier le sens de branchement des deux contacteurs fin de course
