@@ -44,9 +44,18 @@ Puis faire les étapes de fonctionnement précisé ci-dessus.
 
 --------------------
 
-# TODO
+#AUTRE
 
-## Mécanique
+## Programmation
+
+Pour programmer il faut utiliser un programmateur spécifique et le connecteur correspondant sur la carte. Le programmateur est le même que le programmateur du projet Slicor. Une petite fléche permet sur la carte et le connecteur du programmateur permet de détromper le sens de connexion. Ensuite via l'IDE arduino il est possible de mettre le bootloader ("carte : arduino uno", "programmateur : TINYasISP" puis "burn bootloader") il est nécessaire de mettre le bootloader si la puce n'en a pas déjà. Ensuite avec l'option "programmer via un programmateur" il est possible de téléverser le programmer dans le microcontrôleur.
+
+#### ATTENTION !!!
+Avec le programmeteur mis à dispositon une erreur survient dans certaine condition. Si un timeout est émis par le programmateur une solution est d'enlever ou d'ajouter des delay(1) dans la partie setup du programme. (Si une meilleure solution existe je suis preneur).
+
+## TODO
+
+### Mécanique
 -Monter les pièces usinés (Douille à bille avec pièce en acier et circlips
 -Faire souder la structure porteuse de plateau
 -Fixer le plan de pousser sur la structure souder
@@ -59,21 +68,21 @@ Puis faire les étapes de fonctionnement précisé ci-dessus.
 -Faire le lien entre l'encodeur linéaire et la structure souder (mesure direct de la position)
 -Fixer une lame sur le mobile de découpe de façon sécuritaire et précise
 
-### Attention !!!
+#### Attention !!!
 -Ne pas retirer les douilles des tiges (ça les abimes)
 -Vérifier le parallèlisme avant d'appliquer le moindre effort (sinon la structure risque d'être détruite)
 -Traiter le cadre pour limiter les risques de rouilles (milieu humide et sable)
 
-## Programmation
+### Programmation
 -Vérifier la communication entre les deux cartes
 -Programmer le PID (vérin - encodeur linéaire) pour le mouvement de la plaque
 -Vérifier le sens des contacteurs
 
-### Attention !!!
+#### Attention !!!
 -Faire les premiers tests à vide et toujours à porter de bouton d'arrêt d'urgence
 -Programmer avec le même programmateur que le subductor
 -Parfois la programmation ne fonctionne pas et nécessite l'ajout ou le retrait de delay(1) à des endroits dans le programme (Dont know why ...)
 -Vérifier le sens de branchement des deux contacteurs fin de course
 
-## Manuel
+### Manuel
 -Modifier le manuel si nécessaire après avoir expérimenté ce qui est actuellement proposé
